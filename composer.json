@@ -1,0 +1,34 @@
+{
+    "name": "nexa-merchant/taboola-php-sdk",
+    "description": "A PHP SDK for Taboola API",
+    "type": "library",
+    "keywords": ["taboola", "sdk", "api"],
+    "homepage": "https://github.com/NexaMerchant/taboola-php-sdk",
+    "require": {
+        "php": ">=7.4",
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "NexaMerchant\\Taboola\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "NexaMerchant\\Taboola\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "xxl4",
+            "email": "nice.lizhi@gmail.com"
+        }
+    ]
+}
